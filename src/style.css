@@ -1,0 +1,24 @@
+/*Comment*/
+body{
+    background: #333333 url(images/hip-square.png);
+}
+#page{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.strong-red{
+    margin-top: 400px;
+    font-weight: bold;
+    color: #30a7ff;
+}
+
+.light-blue{
+    font-weight: bold;
+    color: blue;
+}
+
+.light-blue{
+    font-size: 18px;
+    color: blueviolet;
+}

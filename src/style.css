@@ -1,16 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300|PT+Sans|Poiret+One|Ubuntu');
+
 /*Comment*/
 body{
     background: #333333 url(images/hip-square.png);
 }
+
 #page{
     width: 960px;
     margin: 0 auto;
 }
 
+#styles li{
+    color: darkred;
+    font-family: Lobster;
+    list-style: url(images/icon_publish.png);
+}
+
+#styles li:hover{
+    background: #000;
+}
+
+#navigation{
+    width: 960px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+#navigation ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#navigation ul li a{
+    color: darkred;
+    padding: 0 10px;
+    font-family: "Lobster", sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    display: block;
+    height: 65px;
+}
+
+#navigation ul li a:hover{
+    background: rgba(183, 43, 43, 0.72);
+    color: #000;
+    text-decoration: underline;
+}
+
+#navigation li{
+    margin-right: 50px
+}
+#navigation .dropdown{
+    position: absolute;
+    top: 100%;
+    width: 150px;
+    background: #575757;
+    display: none;
+}
+
+#navigation li:hover .dropdown{
+    display: block;
+}
+
+#navigation .dropdown li{
+    width: 100%;
+    line-height: 45px;
+    margin: 0px;
+    padding: 0 0px;
+    float: right;
+}
+
+#navigation .dropdown a{
+    line-height: 45px;
+    height: 45px;
+}
+
 .strong-red{
-    margin-top: 400px;
-    font-weight: bold;
+    font-weight: normal;
     color: #30a7ff;
+    text-align: justify;
+    font-family: "Lobster", sans-serif;
+    font-style: inherit;
 }
 
 .light-blue{
@@ -22,3 +93,5 @@ body{
     font-size: 18px;
     color: blueviolet;
 }
+
+

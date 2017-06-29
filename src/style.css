@@ -76,6 +76,24 @@ body{
     height: 45px;
 }
 
+#header{
+    height: 240px;
+    position: relative;
+}
+
+.search{
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
 .strong-red{
     font-weight: normal;
     color: #30a7ff;
@@ -93,5 +111,7 @@ body{
     font-size: 18px;
     color: blueviolet;
 }
+
+
 
 

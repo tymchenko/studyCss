@@ -8,6 +8,7 @@ body{
 #page{
     width: 960px;
     margin: 0 auto;
+    height: 2000px;
 }
 
 #styles li{
@@ -81,6 +82,44 @@ body{
     position: relative;
 }
 
+#content before, #content after{
+    content:"";
+    display: table;
+}
+
+#content after{
+    clear: both;
+}
+
+#content{
+    zoom:1;
+}
+
+#article{
+    width: 740px;
+    padding-left: 20px;
+    float: right;
+}
+
+#article p{
+    color: #333333;
+    font-family: "Lobster", sans-serif;
+}
+
+#article:hover{
+    background: white;
+}
+
+#sidebar{
+    width: 200px;
+    float: left;
+}
+
+#sidebar ul li{
+    color: #333333;
+    font-family: "Lobster", sans-serif;
+}
+
 .search{
     position: absolute;
     right: 0;
@@ -94,24 +133,22 @@ body{
     left: 0px;
 }
 
-.strong-red{
-    font-weight: normal;
-    color: #30a7ff;
-    text-align: justify;
-    font-family: "Lobster", sans-serif;
-    font-style: inherit;
+.pseudo-class{
+    color: red;
 }
 
-.light-blue{
-    font-weight: bold;
+.pseudo-class:hover{
+    color: green;
+}
+
+.pseudo-class:visited {
     color: blue;
 }
 
-.light-blue{
-    font-size: 18px;
-    color: blueviolet;
+.pseudo-class:focus{
+    color: yellow;
 }
 
-
-
-
+#article p:first-child{
+    color: black;
+}
